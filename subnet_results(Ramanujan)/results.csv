@@ -1,0 +1,9 @@
+ Base Config, Name, Prune Rate, Current Val Top 1, Current Val Top 5, Best Val Top 1, Best Val Top 5, Best Train Top 1, Best Train Top 5
+ configs/smallscale/conv4/conv4_usc_unsigned.yml, example,0.5,43.97,89.66,43.97,89.66,35.29,84.33
+ configs/smallscale/conv4/conv4_usc_unsigned.yml, example,0.3,42.16,89.35,42.16,89.35,28.45,78.12
+ configs/smallscale/conv4/conv4_usc_unsigned.yml, example,0.7,46.85,91.32,46.85,91.32,36.83,85.71
+ configs/smallscale/resnet18/resnet18-usc-unsigned.yaml, example,0.7,42.4,92.85,42.4,92.85,36.31,86.62
+ configs/smallscale/conv4/conv4_usc_unsigned.yml, example,0.7,71.61,97.81,72.66,97.84,73.48,98.14
+ configs/smallscale/resnet18/resnet18-usc-unsigned.yaml, example,0.6,77.8,98.72,77.8,98.72,79.22,98.9
+ configs/smallscale/conv8/conv8_usc_unsigned.yml, example,0.6,66.56,97.09,66.56,97.09,65.76,97
+ configs/smallscale/conv8/conv8_usc_unsigned.yml, example,0.65,80.06,98.91,80.06,98.91,82.77,99.24
