@@ -1,0 +1,2 @@
+thon main.py --config configs/smallscale_baselines/sample/conv2/conv2sample_usc_unsigned
+.yml                --name example                --data "data"                --prune-rate 0.5 --epochs 1

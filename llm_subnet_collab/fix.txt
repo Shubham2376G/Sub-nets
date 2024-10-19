@@ -1,0 +1,1 @@
+!python main.py --config configs/smallscale/conv4/conv4_usc_unsigned.yml --name example --data "data" --prune-rate 0.5 --epochs 1 --multigpu 0
