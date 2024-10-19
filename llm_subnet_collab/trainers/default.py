@@ -84,9 +84,9 @@ def validate(val_loader, model, criterion, args, writer, epoch):
             enumerate(val_loader), ascii=True, total=len(val_loader)
         ):
             if args.gpu is not None:
-                images = images.to(torch.device("cpu"))
+                images = images.to(torch.device("cuda"))
 
-            target = target.to(torch.device("cpu"))
+            target = target.to(torch.device("cuda"))
 
             # compute output
             output = model(images)
