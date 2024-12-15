@@ -1,0 +1,39 @@
+Layer-wise Statistics
+--------------------------------------------------
+
+
+Layer: module.fc.weight
+Original Weights Statistics:
+Shape: torch.Size([10, 2048, 1, 1])
+Mean: -0.001311
+Std: 0.021163
+Max Absolute Value: 0.049995
+Min: -0.049995
+Max: 0.049995
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.524036
+Std: 0.291744
+25th percentile: 0.268424
+Median: 0.543000
+75th percentile: 0.778835
+------------------------------
+
+Layer: module.fc.scores
+Original Weights Statistics:
+Shape: torch.Size([10, 2048, 1, 1])
+Mean: 0.000091
+Std: 0.011669
+Max Absolute Value: 0.090023
+Min: -0.089169
+Max: 0.090023
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.101485
+Std: 0.080653
+25th percentile: 0.047269
+Median: 0.086113
+75th percentile: 0.134421
+------------------------------

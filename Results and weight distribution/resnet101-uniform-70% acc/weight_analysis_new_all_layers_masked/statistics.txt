@@ -1,0 +1,111 @@
+Layer-wise Statistics
+--------------------------------------------------
+
+
+Layer: module.fc.weight
+Original Weights Statistics:
+Shape: torch.Size([256, 2048, 1, 1])
+Mean: -0.000011
+Std: 0.020460
+Max Absolute Value: 0.050000
+Min: -0.049998
+Max: 0.050000
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.501458
+Std: 0.288843
+25th percentile: 0.251858
+Median: 0.502059
+75th percentile: 0.751334
+------------------------------
+
+Layer: module.fc.scores
+Original Weights Statistics:
+Shape: torch.Size([256, 2048, 1, 1])
+Mean: -0.000013
+Std: 0.010677
+Max Absolute Value: 0.027487
+Min: -0.027487
+Max: 0.026429
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.335097
+Std: 0.196468
+25th percentile: 0.166263
+Median: 0.334225
+75th percentile: 0.502134
+------------------------------
+
+Layer: module.fc2.weight
+Original Weights Statistics:
+Shape: torch.Size([128, 256, 1, 1])
+Mean: -0.000235
+Std: 0.020725
+Max Absolute Value: 0.050000
+Min: -0.050000
+Max: 0.049988
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.510075
+Std: 0.288923
+25th percentile: 0.260877
+Median: 0.512875
+75th percentile: 0.761949
+------------------------------
+
+Layer: module.fc2.scores
+Original Weights Statistics:
+Shape: torch.Size([128, 256, 1, 1])
+Mean: -0.000288
+Std: 0.031466
+Max Absolute Value: 0.092153
+Min: -0.083681
+Max: 0.092153
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.291593
+Std: 0.177686
+25th percentile: 0.140164
+Median: 0.287432
+75th percentile: 0.435992
+------------------------------
+
+Layer: module.fc3.weight
+Original Weights Statistics:
+Shape: torch.Size([10, 128, 1, 1])
+Mean: -0.000636
+Std: 0.021919
+Max Absolute Value: 0.049672
+Min: -0.049631
+Max: 0.049672
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.557307
+Std: 0.281416
+25th percentile: 0.330197
+Median: 0.585117
+75th percentile: 0.798340
+------------------------------
+
+Layer: module.fc3.scores
+Original Weights Statistics:
+Shape: torch.Size([10, 128, 1, 1])
+Mean: 0.007624
+Std: 0.093328
+Max Absolute Value: 0.374660
+Min: -0.357542
+Max: 0.374660
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.181168
+Std: 0.172170
+25th percentile: 0.052560
+Median: 0.132138
+75th percentile: 0.248730
+------------------------------

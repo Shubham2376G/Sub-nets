@@ -1,0 +1,4809 @@
+Layer-wise Statistics
+--------------------------------------------------
+
+
+Layer: module.conv1.weight
+Original Weights Statistics:
+Shape: torch.Size([64, 3, 7, 7])
+Mean: 0.002491
+Std: 0.144068
+Max Absolute Value: 0.686210
+Min: -0.686210
+Max: 0.655058
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.261442
+Std: 0.140818
+25th percentile: 0.155388
+Median: 0.235435
+75th percentile: 0.344970
+------------------------------
+
+Layer: module.conv1.scores
+Original Weights Statistics:
+Shape: torch.Size([64, 3, 7, 7])
+Mean: 0.000802
+Std: 0.726306
+Max Absolute Value: 8.426135
+Min: -8.426135
+Max: 6.608037
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.050087
+Std: 0.070151
+25th percentile: 0.008591
+Median: 0.026194
+75th percentile: 0.062530
+------------------------------
+
+Layer: module.bn1.running_mean
+Original Weights Statistics:
+Shape: torch.Size([64])
+Mean: -0.087703
+Std: 0.565930
+Max Absolute Value: 1.307337
+Min: -1.234583
+Max: 1.307337
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.323437
+Std: 0.295434
+25th percentile: 0.066231
+Median: 0.227098
+75th percentile: 0.550603
+------------------------------
+
+Layer: module.bn1.running_var
+Original Weights Statistics:
+Shape: torch.Size([64])
+Mean: 7.484830
+Std: 6.425868
+Max Absolute Value: 25.667507
+Min: 1.005052
+Max: 25.667507
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.291607
+Std: 0.250350
+25th percentile: 0.099499
+Median: 0.178855
+75th percentile: 0.434880
+------------------------------
+
+Layer: module.bn1.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer1.0.conv1.weight
+Original Weights Statistics:
+Shape: torch.Size([64, 64, 1, 1])
+Mean: -0.004487
+Std: 0.222105
+Max Absolute Value: 0.996478
+Min: -0.978705
+Max: 0.996478
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.276956
+Std: 0.150654
+25th percentile: 0.161434
+Median: 0.251829
+75th percentile: 0.360700
+------------------------------
+
+Layer: module.layer1.0.conv1.scores
+Original Weights Statistics:
+Shape: torch.Size([64, 64, 1, 1])
+Mean: -0.001060
+Std: 0.725273
+Max Absolute Value: 6.525739
+Min: -5.092693
+Max: 6.525739
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.069903
+Std: 0.086405
+25th percentile: 0.013367
+Median: 0.038844
+75th percentile: 0.096620
+------------------------------
+
+Layer: module.layer1.0.bn1.running_mean
+Original Weights Statistics:
+Shape: torch.Size([64])
+Mean: -0.192472
+Std: 1.769641
+Max Absolute Value: 4.339820
+Min: -4.339820
+Max: 3.161376
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.331196
+Std: 0.241973
+25th percentile: 0.153895
+Median: 0.286774
+75th percentile: 0.465651
+------------------------------
+
+Layer: module.layer1.0.bn1.running_var
+Original Weights Statistics:
+Shape: torch.Size([64])
+Mean: 3.273304
+Std: 1.802977
+Max Absolute Value: 7.946578
+Min: 1.198929
+Max: 7.946578
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.411914
+Std: 0.226887
+25th percentile: 0.243759
+Median: 0.327965
+75th percentile: 0.505321
+------------------------------
+
+Layer: module.layer1.0.bn1.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer1.0.conv2.weight
+Original Weights Statistics:
+Shape: torch.Size([64, 64, 3, 3])
+Mean: -0.001354
+Std: 0.073286
+Max Absolute Value: 0.384392
+Min: -0.354924
+Max: 0.384392
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.237942
+Std: 0.126908
+25th percentile: 0.140494
+Median: 0.217349
+75th percentile: 0.313997
+------------------------------
+
+Layer: module.layer1.0.conv2.scores
+Original Weights Statistics:
+Shape: torch.Size([64, 64, 3, 3])
+Mean: 0.001354
+Std: 0.189156
+Max Absolute Value: 2.896448
+Min: -2.896448
+Max: 2.860936
+Sparsity: 0.02%
+
+Normalized Weights Statistics:
+Mean: 0.039975
+Std: 0.051644
+25th percentile: 0.008091
+Median: 0.021804
+75th percentile: 0.051997
+------------------------------
+
+Layer: module.layer1.0.bn2.running_mean
+Original Weights Statistics:
+Shape: torch.Size([64])
+Mean: -0.266286
+Std: 0.946576
+Max Absolute Value: 2.379884
+Min: -2.379884
+Max: 1.814636
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.322280
+Std: 0.258558
+25th percentile: 0.102586
+Median: 0.256611
+75th percentile: 0.494753
+------------------------------
+
+Layer: module.layer1.0.bn2.running_var
+Original Weights Statistics:
+Shape: torch.Size([64])
+Mean: 2.483177
+Std: 0.999977
+Max Absolute Value: 6.499209
+Min: 0.967980
+Max: 6.499209
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.382074
+Std: 0.153861
+25th percentile: 0.286281
+Median: 0.352796
+75th percentile: 0.442847
+------------------------------
+
+Layer: module.layer1.0.bn2.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer1.0.conv3.weight
+Original Weights Statistics:
+Shape: torch.Size([256, 64, 1, 1])
+Mean: -0.006826
+Std: 0.216624
+Max Absolute Value: 1.076726
+Min: -1.076726
+Max: 0.888326
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.250271
+Std: 0.135638
+25th percentile: 0.146636
+Median: 0.228210
+75th percentile: 0.331841
+------------------------------
+
+Layer: module.layer1.0.conv3.scores
+Original Weights Statistics:
+Shape: torch.Size([256, 64, 1, 1])
+Mean: 0.001211
+Std: 0.317111
+Max Absolute Value: 3.847819
+Min: -3.251712
+Max: 3.847819
+Sparsity: 0.01%
+
+Normalized Weights Statistics:
+Mean: 0.051886
+Std: 0.064030
+25th percentile: 0.013163
+Median: 0.030026
+75th percentile: 0.066509
+------------------------------
+
+Layer: module.layer1.0.bn3.running_mean
+Original Weights Statistics:
+Shape: torch.Size([256])
+Mean: -0.172756
+Std: 0.741923
+Max Absolute Value: 2.082670
+Min: -1.951139
+Max: 2.082670
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.295669
+Std: 0.215325
+25th percentile: 0.115881
+Median: 0.264590
+75th percentile: 0.441096
+------------------------------
+
+Layer: module.layer1.0.bn3.running_var
+Original Weights Statistics:
+Shape: torch.Size([256])
+Mean: 1.510775
+Std: 0.751248
+Max Absolute Value: 5.860670
+Min: 0.456053
+Max: 5.860670
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.257782
+Std: 0.128185
+25th percentile: 0.171978
+Median: 0.227759
+75th percentile: 0.318131
+------------------------------
+
+Layer: module.layer1.0.bn3.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer1.0.downsample.0.weight
+Original Weights Statistics:
+Shape: torch.Size([256, 64, 1, 1])
+Mean: -0.003653
+Std: 0.216131
+Max Absolute Value: 1.132170
+Min: -1.132170
+Max: 1.023494
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.236208
+Std: 0.130815
+25th percentile: 0.136537
+Median: 0.214670
+75th percentile: 0.315478
+------------------------------
+
+Layer: module.layer1.0.downsample.0.scores
+Original Weights Statistics:
+Shape: torch.Size([256, 64, 1, 1])
+Mean: 0.001378
+Std: 0.285977
+Max Absolute Value: 4.966737
+Min: -2.520511
+Max: 4.966737
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.036387
+Std: 0.044624
+25th percentile: 0.009445
+Median: 0.021336
+75th percentile: 0.046851
+------------------------------
+
+Layer: module.layer1.0.downsample.1.running_mean
+Original Weights Statistics:
+Shape: torch.Size([256])
+Mean: -0.214329
+Std: 1.991673
+Max Absolute Value: 6.181741
+Min: -5.262208
+Max: 6.181741
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.261116
+Std: 0.191898
+25th percentile: 0.095653
+Median: 0.231157
+75th percentile: 0.393420
+------------------------------
+
+Layer: module.layer1.0.downsample.1.running_var
+Original Weights Statistics:
+Shape: torch.Size([256])
+Mean: 2.528230
+Std: 1.349374
+Max Absolute Value: 8.094984
+Min: 0.603231
+Max: 8.094984
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.312321
+Std: 0.166693
+25th percentile: 0.193891
+Median: 0.276223
+75th percentile: 0.398908
+------------------------------
+
+Layer: module.layer1.0.downsample.1.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer1.1.conv1.weight
+Original Weights Statistics:
+Shape: torch.Size([64, 256, 1, 1])
+Mean: -0.002882
+Std: 0.108862
+Max Absolute Value: 0.535284
+Min: -0.535284
+Max: 0.421397
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.254631
+Std: 0.133945
+25th percentile: 0.152758
+Median: 0.232613
+75th percentile: 0.335608
+------------------------------
+
+Layer: module.layer1.1.conv1.scores
+Original Weights Statistics:
+Shape: torch.Size([64, 256, 1, 1])
+Mean: 0.001333
+Std: 0.282554
+Max Absolute Value: 3.388387
+Min: -2.501337
+Max: 3.388387
+Sparsity: 0.02%
+
+Normalized Weights Statistics:
+Mean: 0.051689
+Std: 0.065438
+25th percentile: 0.010737
+Median: 0.028121
+75th percentile: 0.068027
+------------------------------
+
+Layer: module.layer1.1.bn1.running_mean
+Original Weights Statistics:
+Shape: torch.Size([64])
+Mean: -0.430844
+Std: 1.143781
+Max Absolute Value: 3.665801
+Min: -3.665801
+Max: 1.760698
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.279499
+Std: 0.181786
+25th percentile: 0.164012
+Median: 0.262996
+75th percentile: 0.367706
+------------------------------
+
+Layer: module.layer1.1.bn1.running_var
+Original Weights Statistics:
+Shape: torch.Size([64])
+Mean: 6.474071
+Std: 2.789587
+Max Absolute Value: 14.967926
+Min: 2.554402
+Max: 14.967926
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.432530
+Std: 0.186371
+25th percentile: 0.274618
+Median: 0.364026
+75th percentile: 0.553476
+------------------------------
+
+Layer: module.layer1.1.bn1.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer1.1.conv2.weight
+Original Weights Statistics:
+Shape: torch.Size([64, 64, 3, 3])
+Mean: -0.001953
+Std: 0.072892
+Max Absolute Value: 0.391797
+Min: -0.391797
+Max: 0.372475
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.232270
+Std: 0.123796
+25th percentile: 0.137548
+Median: 0.211936
+75th percentile: 0.304935
+------------------------------
+
+Layer: module.layer1.1.conv2.scores
+Original Weights Statistics:
+Shape: torch.Size([64, 64, 3, 3])
+Mean: 0.000287
+Std: 0.179047
+Max Absolute Value: 3.835900
+Min: -2.168858
+Max: 3.835900
+Sparsity: 0.02%
+
+Normalized Weights Statistics:
+Mean: 0.027822
+Std: 0.037479
+25th percentile: 0.005781
+Median: 0.014946
+75th percentile: 0.035300
+------------------------------
+
+Layer: module.layer1.1.bn2.running_mean
+Original Weights Statistics:
+Shape: torch.Size([64])
+Mean: -0.377591
+Std: 0.780181
+Max Absolute Value: 2.026383
+Min: -2.026383
+Max: 1.442017
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.339767
+Std: 0.259834
+25th percentile: 0.134505
+Median: 0.266945
+75th percentile: 0.498275
+------------------------------
+
+Layer: module.layer1.1.bn2.running_var
+Original Weights Statistics:
+Shape: torch.Size([64])
+Mean: 3.005540
+Std: 1.524997
+Max Absolute Value: 7.086039
+Min: 1.160167
+Max: 7.086039
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.424150
+Std: 0.215211
+25th percentile: 0.255621
+Median: 0.338196
+75th percentile: 0.548713
+------------------------------
+
+Layer: module.layer1.1.bn2.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer1.1.conv3.weight
+Original Weights Statistics:
+Shape: torch.Size([256, 64, 1, 1])
+Mean: -0.006530
+Std: 0.216898
+Max Absolute Value: 0.982188
+Min: -0.982188
+Max: 0.953967
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.272585
+Std: 0.152706
+25th percentile: 0.156826
+Median: 0.248401
+75th percentile: 0.362237
+------------------------------
+
+Layer: module.layer1.1.conv3.scores
+Original Weights Statistics:
+Shape: torch.Size([256, 64, 1, 1])
+Mean: 0.002976
+Std: 0.232117
+Max Absolute Value: 2.286323
+Min: -2.286323
+Max: 1.498510
+Sparsity: 0.01%
+
+Normalized Weights Statistics:
+Mean: 0.066749
+Std: 0.076507
+25th percentile: 0.018825
+Median: 0.040529
+75th percentile: 0.086459
+------------------------------
+
+Layer: module.layer1.1.bn3.running_mean
+Original Weights Statistics:
+Shape: torch.Size([256])
+Mean: -0.164049
+Std: 0.755028
+Max Absolute Value: 2.269971
+Min: -2.199809
+Max: 2.269971
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.263985
+Std: 0.214868
+25th percentile: 0.090750
+Median: 0.210155
+75th percentile: 0.404607
+------------------------------
+
+Layer: module.layer1.1.bn3.running_var
+Original Weights Statistics:
+Shape: torch.Size([256])
+Mean: 1.743607
+Std: 1.016259
+Max Absolute Value: 6.398854
+Min: 0.421283
+Max: 6.398854
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.272487
+Std: 0.158819
+25th percentile: 0.156904
+Median: 0.227163
+75th percentile: 0.340682
+------------------------------
+
+Layer: module.layer1.1.bn3.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer1.2.conv1.weight
+Original Weights Statistics:
+Shape: torch.Size([64, 256, 1, 1])
+Mean: -0.003355
+Std: 0.109276
+Max Absolute Value: 0.482233
+Min: -0.472654
+Max: 0.482233
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.282399
+Std: 0.151812
+25th percentile: 0.166999
+Median: 0.255947
+75th percentile: 0.370868
+------------------------------
+
+Layer: module.layer1.2.conv1.scores
+Original Weights Statistics:
+Shape: torch.Size([64, 256, 1, 1])
+Mean: 0.001147
+Std: 0.223864
+Max Absolute Value: 2.554427
+Min: -2.023945
+Max: 2.554427
+Sparsity: 0.01%
+
+Normalized Weights Statistics:
+Mean: 0.054456
+Std: 0.068667
+25th percentile: 0.011990
+Median: 0.030726
+75th percentile: 0.071026
+------------------------------
+
+Layer: module.layer1.2.bn1.running_mean
+Original Weights Statistics:
+Shape: torch.Size([64])
+Mean: -0.777159
+Std: 1.856069
+Max Absolute Value: 5.137872
+Min: -5.137872
+Max: 3.839674
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.328817
+Std: 0.212749
+25th percentile: 0.147964
+Median: 0.305663
+75th percentile: 0.438254
+------------------------------
+
+Layer: module.layer1.2.bn1.running_var
+Original Weights Statistics:
+Shape: torch.Size([64])
+Mean: 8.283484
+Std: 4.497192
+Max Absolute Value: 24.820887
+Min: 2.836756
+Max: 24.820887
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.333730
+Std: 0.181186
+25th percentile: 0.208169
+Median: 0.279060
+75th percentile: 0.442194
+------------------------------
+
+Layer: module.layer1.2.bn1.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer1.2.conv2.weight
+Original Weights Statistics:
+Shape: torch.Size([64, 64, 3, 3])
+Mean: -0.002327
+Std: 0.072416
+Max Absolute Value: 0.359298
+Min: -0.318142
+Max: 0.359298
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.251071
+Std: 0.135243
+25th percentile: 0.147931
+Median: 0.228984
+75th percentile: 0.331618
+------------------------------
+
+Layer: module.layer1.2.conv2.scores
+Original Weights Statistics:
+Shape: torch.Size([64, 64, 3, 3])
+Mean: -0.000646
+Std: 0.127876
+Max Absolute Value: 2.158324
+Min: -1.502639
+Max: 2.158324
+Sparsity: 0.02%
+
+Normalized Weights Statistics:
+Mean: 0.035587
+Std: 0.047371
+25th percentile: 0.007957
+Median: 0.019430
+75th percentile: 0.045356
+------------------------------
+
+Layer: module.layer1.2.bn2.running_mean
+Original Weights Statistics:
+Shape: torch.Size([64])
+Mean: -0.436512
+Std: 0.970995
+Max Absolute Value: 2.753003
+Min: -2.753003
+Max: 2.004280
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.313105
+Std: 0.226949
+25th percentile: 0.090952
+Median: 0.319007
+75th percentile: 0.439168
+------------------------------
+
+Layer: module.layer1.2.bn2.running_var
+Original Weights Statistics:
+Shape: torch.Size([64])
+Mean: 2.470680
+Std: 1.134129
+Max Absolute Value: 6.035884
+Min: 0.822717
+Max: 6.035884
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.409332
+Std: 0.187898
+25th percentile: 0.269667
+Median: 0.348733
+75th percentile: 0.511142
+------------------------------
+
+Layer: module.layer1.2.bn2.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer1.2.conv3.weight
+Original Weights Statistics:
+Shape: torch.Size([256, 64, 1, 1])
+Mean: -0.006505
+Std: 0.210418
+Max Absolute Value: 1.043537
+Min: -1.043537
+Max: 1.000464
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.245376
+Std: 0.145552
+25th percentile: 0.135975
+Median: 0.225337
+75th percentile: 0.336344
+------------------------------
+
+Layer: module.layer1.2.conv3.scores
+Original Weights Statistics:
+Shape: torch.Size([256, 64, 1, 1])
+Mean: 0.003067
+Std: 0.164798
+Max Absolute Value: 1.304243
+Min: -1.304243
+Max: 1.118019
+Sparsity: 0.01%
+
+Normalized Weights Statistics:
+Mean: 0.086705
+Std: 0.091942
+25th percentile: 0.027258
+Median: 0.058266
+75th percentile: 0.113482
+------------------------------
+
+Layer: module.layer1.2.bn3.running_mean
+Original Weights Statistics:
+Shape: torch.Size([256])
+Mean: -0.162494
+Std: 0.768904
+Max Absolute Value: 2.189017
+Min: -1.793986
+Max: 2.189017
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.286155
+Std: 0.216809
+25th percentile: 0.111011
+Median: 0.231914
+75th percentile: 0.423886
+------------------------------
+
+Layer: module.layer1.2.bn3.running_var
+Original Weights Statistics:
+Shape: torch.Size([256])
+Mean: 1.659510
+Std: 0.922393
+Max Absolute Value: 5.826614
+Min: 0.457776
+Max: 5.826614
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.284816
+Std: 0.158307
+25th percentile: 0.171677
+Median: 0.243048
+75th percentile: 0.353509
+------------------------------
+
+Layer: module.layer1.2.bn3.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer2.0.conv1.weight
+Original Weights Statistics:
+Shape: torch.Size([128, 256, 1, 1])
+Mean: -0.000986
+Std: 0.106979
+Max Absolute Value: 0.525450
+Min: -0.474022
+Max: 0.525450
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.250096
+Std: 0.142694
+25th percentile: 0.141840
+Median: 0.229539
+75th percentile: 0.336088
+------------------------------
+
+Layer: module.layer2.0.conv1.scores
+Original Weights Statistics:
+Shape: torch.Size([128, 256, 1, 1])
+Mean: 0.000350
+Std: 0.109157
+Max Absolute Value: 1.405512
+Min: -1.219519
+Max: 1.405512
+Sparsity: 0.01%
+
+Normalized Weights Statistics:
+Mean: 0.050023
+Std: 0.059409
+25th percentile: 0.014249
+Median: 0.030409
+75th percentile: 0.063207
+------------------------------
+
+Layer: module.layer2.0.bn1.running_mean
+Original Weights Statistics:
+Shape: torch.Size([128])
+Mean: -0.240825
+Std: 2.458673
+Max Absolute Value: 7.787117
+Min: -5.415252
+Max: 7.787117
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.253858
+Std: 0.190268
+25th percentile: 0.093737
+Median: 0.228204
+75th percentile: 0.347855
+------------------------------
+
+Layer: module.layer2.0.bn1.running_var
+Original Weights Statistics:
+Shape: torch.Size([128])
+Mean: 5.754958
+Std: 2.351372
+Max Absolute Value: 12.283093
+Min: 2.120910
+Max: 12.283093
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.468527
+Std: 0.191432
+25th percentile: 0.317122
+Median: 0.415015
+75th percentile: 0.571809
+------------------------------
+
+Layer: module.layer2.0.bn1.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer2.0.conv2.weight
+Original Weights Statistics:
+Shape: torch.Size([128, 128, 3, 3])
+Mean: -0.000477
+Std: 0.048292
+Max Absolute Value: 0.278332
+Min: -0.278332
+Max: 0.250868
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.205411
+Std: 0.134239
+25th percentile: 0.100944
+Median: 0.187023
+75th percentile: 0.288071
+------------------------------
+
+Layer: module.layer2.0.conv2.scores
+Original Weights Statistics:
+Shape: torch.Size([128, 128, 3, 3])
+Mean: -0.000135
+Std: 0.031667
+Max Absolute Value: 0.768431
+Min: -0.768431
+Max: 0.505173
+Sparsity: 0.03%
+
+Normalized Weights Statistics:
+Mean: 0.027461
+Std: 0.030727
+25th percentile: 0.009224
+Median: 0.019352
+75th percentile: 0.034036
+------------------------------
+
+Layer: module.layer2.0.bn2.running_mean
+Original Weights Statistics:
+Shape: torch.Size([128])
+Mean: -0.162060
+Std: 1.145069
+Max Absolute Value: 3.226032
+Min: -3.226032
+Max: 1.904343
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.289552
+Std: 0.211353
+25th percentile: 0.122153
+Median: 0.253621
+75th percentile: 0.401613
+------------------------------
+
+Layer: module.layer2.0.bn2.running_var
+Original Weights Statistics:
+Shape: torch.Size([128])
+Mean: 2.319749
+Std: 1.097747
+Max Absolute Value: 7.641422
+Min: 0.930139
+Max: 7.641422
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.303576
+Std: 0.143657
+25th percentile: 0.206739
+Median: 0.272648
+75th percentile: 0.360387
+------------------------------
+
+Layer: module.layer2.0.bn2.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer2.0.conv3.weight
+Original Weights Statistics:
+Shape: torch.Size([512, 128, 1, 1])
+Mean: -0.002131
+Std: 0.135286
+Max Absolute Value: 0.725541
+Min: -0.725541
+Max: 0.684293
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.213253
+Std: 0.155166
+25th percentile: 0.088272
+Median: 0.184706
+75th percentile: 0.308411
+------------------------------
+
+Layer: module.layer2.0.conv3.scores
+Original Weights Statistics:
+Shape: torch.Size([512, 128, 1, 1])
+Mean: -0.000276
+Std: 0.052618
+Max Absolute Value: 0.529233
+Min: -0.352414
+Max: 0.529233
+Sparsity: 0.01%
+
+Normalized Weights Statistics:
+Mean: 0.077762
+Std: 0.061953
+25th percentile: 0.033492
+Median: 0.068130
+75th percentile: 0.106110
+------------------------------
+
+Layer: module.layer2.0.bn3.running_mean
+Original Weights Statistics:
+Shape: torch.Size([512])
+Mean: -0.112100
+Std: 0.933137
+Max Absolute Value: 2.865726
+Min: -2.865726
+Max: 2.096629
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.269179
+Std: 0.187352
+25th percentile: 0.107861
+Median: 0.243210
+75th percentile: 0.394358
+------------------------------
+
+Layer: module.layer2.0.bn3.running_var
+Original Weights Statistics:
+Shape: torch.Size([512])
+Mean: 1.476454
+Std: 0.716179
+Max Absolute Value: 4.540485
+Min: 0.411740
+Max: 4.540485
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.325175
+Std: 0.157732
+25th percentile: 0.216049
+Median: 0.284438
+75th percentile: 0.384657
+------------------------------
+
+Layer: module.layer2.0.bn3.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer2.0.downsample.0.weight
+Original Weights Statistics:
+Shape: torch.Size([512, 256, 1, 1])
+Mean: -0.001376
+Std: 0.096288
+Max Absolute Value: 0.517801
+Min: -0.517801
+Max: 0.511806
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.212834
+Std: 0.154517
+25th percentile: 0.088387
+Median: 0.185405
+75th percentile: 0.307381
+------------------------------
+
+Layer: module.layer2.0.downsample.0.scores
+Original Weights Statistics:
+Shape: torch.Size([512, 256, 1, 1])
+Mean: 0.000003
+Std: 0.037994
+Max Absolute Value: 0.382586
+Min: -0.362116
+Max: 0.382586
+Sparsity: 0.02%
+
+Normalized Weights Statistics:
+Mean: 0.076896
+Std: 0.062841
+25th percentile: 0.032371
+Median: 0.066461
+75th percentile: 0.104410
+------------------------------
+
+Layer: module.layer2.0.downsample.1.running_mean
+Original Weights Statistics:
+Shape: torch.Size([512])
+Mean: -0.329048
+Std: 2.087709
+Max Absolute Value: 7.288136
+Min: -7.288136
+Max: 5.311830
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.231823
+Std: 0.174218
+25th percentile: 0.079644
+Median: 0.195795
+75th percentile: 0.354168
+------------------------------
+
+Layer: module.layer2.0.downsample.1.running_var
+Original Weights Statistics:
+Shape: torch.Size([512])
+Mean: 4.351203
+Std: 2.085212
+Max Absolute Value: 13.934566
+Min: 1.458063
+Max: 13.934566
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.312260
+Std: 0.149643
+25th percentile: 0.207323
+Median: 0.274667
+75th percentile: 0.377035
+------------------------------
+
+Layer: module.layer2.0.downsample.1.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer2.1.conv1.weight
+Original Weights Statistics:
+Shape: torch.Size([128, 512, 1, 1])
+Mean: 0.001552
+Std: 0.070792
+Max Absolute Value: 0.395335
+Min: -0.388511
+Max: 0.395335
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.208077
+Std: 0.144449
+25th percentile: 0.092637
+Median: 0.186252
+75th percentile: 0.299110
+------------------------------
+
+Layer: module.layer2.1.conv1.scores
+Original Weights Statistics:
+Shape: torch.Size([128, 512, 1, 1])
+Mean: 0.000054
+Std: 0.033818
+Max Absolute Value: 0.387274
+Min: -0.387274
+Max: 0.315433
+Sparsity: 0.02%
+
+Normalized Weights Statistics:
+Mean: 0.064162
+Std: 0.059235
+25th percentile: 0.024923
+Median: 0.051201
+75th percentile: 0.082689
+------------------------------
+
+Layer: module.layer2.1.bn1.running_mean
+Original Weights Statistics:
+Shape: torch.Size([128])
+Mean: 0.464599
+Std: 1.883375
+Max Absolute Value: 4.447866
+Min: -4.447866
+Max: 4.399386
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.373880
+Std: 0.224544
+25th percentile: 0.207453
+Median: 0.372534
+75th percentile: 0.477914
+------------------------------
+
+Layer: module.layer2.1.bn1.running_var
+Original Weights Statistics:
+Shape: torch.Size([128])
+Mean: 6.865567
+Std: 3.392070
+Max Absolute Value: 17.435411
+Min: 1.749622
+Max: 17.435411
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.393771
+Std: 0.194551
+25th percentile: 0.234429
+Median: 0.345519
+75th percentile: 0.505034
+------------------------------
+
+Layer: module.layer2.1.bn1.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer2.1.conv2.weight
+Original Weights Statistics:
+Shape: torch.Size([128, 128, 3, 3])
+Mean: -0.000237
+Std: 0.046429
+Max Absolute Value: 0.299064
+Min: -0.265869
+Max: 0.299064
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.179368
+Std: 0.126621
+25th percentile: 0.077561
+Median: 0.158482
+75th percentile: 0.258172
+------------------------------
+
+Layer: module.layer2.1.conv2.scores
+Original Weights Statistics:
+Shape: torch.Size([128, 128, 3, 3])
+Mean: -0.000009
+Std: 0.022487
+Max Absolute Value: 0.343621
+Min: -0.343621
+Max: 0.286961
+Sparsity: 0.02%
+
+Normalized Weights Statistics:
+Mean: 0.046831
+Std: 0.045708
+25th percentile: 0.017799
+Median: 0.037107
+75th percentile: 0.059855
+------------------------------
+
+Layer: module.layer2.1.bn2.running_mean
+Original Weights Statistics:
+Shape: torch.Size([128])
+Mean: -0.107577
+Std: 1.231563
+Max Absolute Value: 2.991729
+Min: -2.991729
+Max: 2.528841
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.357294
+Std: 0.207592
+25th percentile: 0.194698
+Median: 0.324784
+75th percentile: 0.482568
+------------------------------
+
+Layer: module.layer2.1.bn2.running_var
+Original Weights Statistics:
+Shape: torch.Size([128])
+Mean: 3.856966
+Std: 1.594260
+Max Absolute Value: 10.732897
+Min: 0.878900
+Max: 10.732897
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.359359
+Std: 0.148540
+25th percentile: 0.247389
+Median: 0.359156
+75th percentile: 0.440977
+------------------------------
+
+Layer: module.layer2.1.bn2.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer2.1.conv3.weight
+Original Weights Statistics:
+Shape: torch.Size([512, 128, 1, 1])
+Mean: 0.001263
+Std: 0.132008
+Max Absolute Value: 0.770522
+Min: -0.751529
+Max: 0.770522
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.194460
+Std: 0.144547
+25th percentile: 0.078760
+Median: 0.165353
+75th percentile: 0.282750
+------------------------------
+
+Layer: module.layer2.1.conv3.scores
+Original Weights Statistics:
+Shape: torch.Size([512, 128, 1, 1])
+Mean: -0.000026
+Std: 0.047820
+Max Absolute Value: 0.518866
+Min: -0.518343
+Max: 0.518866
+Sparsity: 0.01%
+
+Normalized Weights Statistics:
+Mean: 0.073449
+Std: 0.055670
+25th percentile: 0.032606
+Median: 0.066154
+75th percentile: 0.102503
+------------------------------
+
+Layer: module.layer2.1.bn3.running_mean
+Original Weights Statistics:
+Shape: torch.Size([512])
+Mean: 0.039927
+Std: 0.739897
+Max Absolute Value: 2.049580
+Min: -1.764303
+Max: 2.049580
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.309110
+Std: 0.187485
+25th percentile: 0.156548
+Median: 0.302317
+75th percentile: 0.433344
+------------------------------
+
+Layer: module.layer2.1.bn3.running_var
+Original Weights Statistics:
+Shape: torch.Size([512])
+Mean: 2.640243
+Std: 1.559262
+Max Absolute Value: 9.653224
+Min: 0.226366
+Max: 9.653224
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.273509
+Std: 0.161528
+25th percentile: 0.150342
+Median: 0.246537
+75th percentile: 0.355320
+------------------------------
+
+Layer: module.layer2.1.bn3.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer2.2.conv1.weight
+Original Weights Statistics:
+Shape: torch.Size([128, 512, 1, 1])
+Mean: 0.002025
+Std: 0.069072
+Max Absolute Value: 0.387899
+Min: -0.367383
+Max: 0.387899
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.205456
+Std: 0.145799
+25th percentile: 0.088201
+Median: 0.181187
+75th percentile: 0.297134
+------------------------------
+
+Layer: module.layer2.2.conv1.scores
+Original Weights Statistics:
+Shape: torch.Size([128, 512, 1, 1])
+Mean: 0.000141
+Std: 0.031233
+Max Absolute Value: 0.458104
+Min: -0.458104
+Max: 0.319719
+Sparsity: 0.02%
+
+Normalized Weights Statistics:
+Mean: 0.050514
+Std: 0.045792
+25th percentile: 0.020172
+Median: 0.041255
+75th percentile: 0.065700
+------------------------------
+
+Layer: module.layer2.2.bn1.running_mean
+Original Weights Statistics:
+Shape: torch.Size([128])
+Mean: 0.765215
+Std: 2.849591
+Max Absolute Value: 6.228449
+Min: -4.937581
+Max: 6.228449
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.397355
+Std: 0.257916
+25th percentile: 0.187135
+Median: 0.349719
+75th percentile: 0.567282
+------------------------------
+
+Layer: module.layer2.2.bn1.running_var
+Original Weights Statistics:
+Shape: torch.Size([128])
+Mean: 8.969128
+Std: 6.328680
+Max Absolute Value: 38.821697
+Min: 2.621724
+Max: 38.821697
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.231034
+Std: 0.163019
+25th percentile: 0.119090
+Median: 0.170895
+75th percentile: 0.297293
+------------------------------
+
+Layer: module.layer2.2.bn1.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer2.2.conv2.weight
+Original Weights Statistics:
+Shape: torch.Size([128, 128, 3, 3])
+Mean: 0.000543
+Std: 0.045546
+Max Absolute Value: 0.260801
+Min: -0.251667
+Max: 0.260801
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.200865
+Std: 0.143735
+25th percentile: 0.085583
+Median: 0.176081
+75th percentile: 0.289204
+------------------------------
+
+Layer: module.layer2.2.conv2.scores
+Original Weights Statistics:
+Shape: torch.Size([128, 128, 3, 3])
+Mean: 0.000040
+Std: 0.020333
+Max Absolute Value: 0.309228
+Min: -0.265643
+Max: 0.309228
+Sparsity: 0.03%
+
+Normalized Weights Statistics:
+Mean: 0.048237
+Std: 0.044687
+25th percentile: 0.019352
+Median: 0.039795
+75th percentile: 0.063042
+------------------------------
+
+Layer: module.layer2.2.bn2.running_mean
+Original Weights Statistics:
+Shape: torch.Size([128])
+Mean: 0.129382
+Std: 0.981076
+Max Absolute Value: 2.209953
+Min: -1.803254
+Max: 2.209953
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.385184
+Std: 0.228339
+25th percentile: 0.205871
+Median: 0.372192
+75th percentile: 0.540271
+------------------------------
+
+Layer: module.layer2.2.bn2.running_var
+Original Weights Statistics:
+Shape: torch.Size([128])
+Mean: 4.720452
+Std: 2.099573
+Max Absolute Value: 10.840682
+Min: 0.879794
+Max: 10.840682
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.435439
+Std: 0.193675
+25th percentile: 0.297244
+Median: 0.430237
+75th percentile: 0.533176
+------------------------------
+
+Layer: module.layer2.2.bn2.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer2.2.conv3.weight
+Original Weights Statistics:
+Shape: torch.Size([512, 128, 1, 1])
+Mean: -0.001419
+Std: 0.131549
+Max Absolute Value: 0.715851
+Min: -0.676349
+Max: 0.715851
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.208109
+Std: 0.155687
+25th percentile: 0.083396
+Median: 0.176096
+75th percentile: 0.302321
+------------------------------
+
+Layer: module.layer2.2.conv3.scores
+Original Weights Statistics:
+Shape: torch.Size([512, 128, 1, 1])
+Mean: -0.000071
+Std: 0.045300
+Max Absolute Value: 0.368825
+Min: -0.368825
+Max: 0.343828
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.099959
+Std: 0.071370
+25th percentile: 0.045404
+Median: 0.092262
+75th percentile: 0.141719
+------------------------------
+
+Layer: module.layer2.2.bn3.running_mean
+Original Weights Statistics:
+Shape: torch.Size([512])
+Mean: -0.023109
+Std: 0.500367
+Max Absolute Value: 1.378886
+Min: -1.169557
+Max: 1.378886
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.306546
+Std: 0.194913
+25th percentile: 0.157199
+Median: 0.288474
+75th percentile: 0.432383
+------------------------------
+
+Layer: module.layer2.2.bn3.running_var
+Original Weights Statistics:
+Shape: torch.Size([512])
+Mean: 2.691860
+Std: 1.689750
+Max Absolute Value: 11.550625
+Min: 0.301373
+Max: 11.550625
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.233049
+Std: 0.146291
+25th percentile: 0.130322
+Median: 0.205152
+75th percentile: 0.295848
+------------------------------
+
+Layer: module.layer2.2.bn3.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer2.3.conv1.weight
+Original Weights Statistics:
+Shape: torch.Size([128, 512, 1, 1])
+Mean: -0.000584
+Std: 0.069042
+Max Absolute Value: 0.379879
+Min: -0.379879
+Max: 0.369840
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.209584
+Std: 0.148809
+25th percentile: 0.090642
+Median: 0.185077
+75th percentile: 0.302430
+------------------------------
+
+Layer: module.layer2.3.conv1.scores
+Original Weights Statistics:
+Shape: torch.Size([128, 512, 1, 1])
+Mean: 0.000196
+Std: 0.031972
+Max Absolute Value: 0.430010
+Min: -0.430010
+Max: 0.370307
+Sparsity: 0.02%
+
+Normalized Weights Statistics:
+Mean: 0.054238
+Std: 0.050858
+25th percentile: 0.021328
+Median: 0.044083
+75th percentile: 0.070358
+------------------------------
+
+Layer: module.layer2.3.bn1.running_mean
+Original Weights Statistics:
+Shape: torch.Size([128])
+Mean: -0.242401
+Std: 2.353373
+Max Absolute Value: 6.830642
+Min: -4.784330
+Max: 6.830642
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.287149
+Std: 0.193667
+25th percentile: 0.146789
+Median: 0.260187
+75th percentile: 0.389100
+------------------------------
+
+Layer: module.layer2.3.bn1.running_var
+Original Weights Statistics:
+Shape: torch.Size([128])
+Mean: 8.498939
+Std: 5.618017
+Max Absolute Value: 28.104120
+Min: 1.985683
+Max: 28.104120
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.302409
+Std: 0.199900
+25th percentile: 0.157817
+Median: 0.239157
+75th percentile: 0.374022
+------------------------------
+
+Layer: module.layer2.3.bn1.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer2.3.conv2.weight
+Original Weights Statistics:
+Shape: torch.Size([128, 128, 3, 3])
+Mean: -0.000502
+Std: 0.045171
+Max Absolute Value: 0.268973
+Min: -0.247500
+Max: 0.268973
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.192628
+Std: 0.138953
+25th percentile: 0.081120
+Median: 0.167923
+75th percentile: 0.277757
+------------------------------
+
+Layer: module.layer2.3.conv2.scores
+Original Weights Statistics:
+Shape: torch.Size([128, 128, 3, 3])
+Mean: 0.000026
+Std: 0.020711
+Max Absolute Value: 0.361074
+Min: -0.293989
+Max: 0.361074
+Sparsity: 0.03%
+
+Normalized Weights Statistics:
+Mean: 0.041302
+Std: 0.039801
+25th percentile: 0.016422
+Median: 0.033719
+75th percentile: 0.053529
+------------------------------
+
+Layer: module.layer2.3.bn2.running_mean
+Original Weights Statistics:
+Shape: torch.Size([128])
+Mean: -0.149137
+Std: 1.013675
+Max Absolute Value: 2.395149
+Min: -2.265872
+Max: 2.395149
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.357344
+Std: 0.235155
+25th percentile: 0.167503
+Median: 0.306842
+75th percentile: 0.530150
+------------------------------
+
+Layer: module.layer2.3.bn2.running_var
+Original Weights Statistics:
+Shape: torch.Size([128])
+Mean: 2.719729
+Std: 1.528396
+Max Absolute Value: 8.928028
+Min: 0.593088
+Max: 8.928028
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.304628
+Std: 0.171191
+25th percentile: 0.180761
+Median: 0.264246
+75th percentile: 0.397596
+------------------------------
+
+Layer: module.layer2.3.bn2.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer2.3.conv3.weight
+Original Weights Statistics:
+Shape: torch.Size([512, 128, 1, 1])
+Mean: -0.000009
+Std: 0.130474
+Max Absolute Value: 0.775962
+Min: -0.775962
+Max: 0.711127
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.189950
+Std: 0.143053
+25th percentile: 0.075984
+Median: 0.160730
+75th percentile: 0.273809
+------------------------------
+
+Layer: module.layer2.3.conv3.scores
+Original Weights Statistics:
+Shape: torch.Size([512, 128, 1, 1])
+Mean: -0.000251
+Std: 0.042823
+Max Absolute Value: 0.293015
+Min: -0.286404
+Max: 0.293015
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.121080
+Std: 0.081845
+25th percentile: 0.056274
+Median: 0.114064
+75th percentile: 0.173528
+------------------------------
+
+Layer: module.layer2.3.bn3.running_mean
+Original Weights Statistics:
+Shape: torch.Size([512])
+Mean: 0.008310
+Std: 0.536063
+Max Absolute Value: 1.370449
+Min: -1.370449
+Max: 1.325641
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.331077
+Std: 0.208400
+25th percentile: 0.161035
+Median: 0.307357
+75th percentile: 0.467810
+------------------------------
+
+Layer: module.layer2.3.bn3.running_var
+Original Weights Statistics:
+Shape: torch.Size([512])
+Mean: 1.871114
+Std: 1.254421
+Max Absolute Value: 8.028306
+Min: 0.274359
+Max: 8.028306
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.233065
+Std: 0.156250
+25th percentile: 0.118253
+Median: 0.190383
+75th percentile: 0.303501
+------------------------------
+
+Layer: module.layer2.3.bn3.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer3.0.conv1.weight
+Original Weights Statistics:
+Shape: torch.Size([256, 512, 1, 1])
+Mean: -0.000263
+Std: 0.066179
+Max Absolute Value: 0.405425
+Min: -0.362949
+Max: 0.405425
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.185197
+Std: 0.137816
+25th percentile: 0.074564
+Median: 0.157756
+75th percentile: 0.269455
+------------------------------
+
+Layer: module.layer3.0.conv1.scores
+Original Weights Statistics:
+Shape: torch.Size([256, 512, 1, 1])
+Mean: 0.000120
+Std: 0.023474
+Max Absolute Value: 0.213465
+Min: -0.213465
+Max: 0.195059
+Sparsity: 0.02%
+
+Normalized Weights Statistics:
+Mean: 0.088185
+Std: 0.065700
+25th percentile: 0.038681
+Median: 0.079816
+75th percentile: 0.123991
+------------------------------
+
+Layer: module.layer3.0.bn1.running_mean
+Original Weights Statistics:
+Shape: torch.Size([256])
+Mean: -0.130959
+Std: 2.574540
+Max Absolute Value: 7.965668
+Min: -7.965668
+Max: 6.953240
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.257398
+Std: 0.196158
+25th percentile: 0.097529
+Median: 0.220916
+75th percentile: 0.393630
+------------------------------
+
+Layer: module.layer3.0.bn1.running_var
+Original Weights Statistics:
+Shape: torch.Size([256])
+Mean: 8.278540
+Std: 5.870938
+Max Absolute Value: 33.692387
+Min: 1.963704
+Max: 33.692387
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.245709
+Std: 0.174251
+25th percentile: 0.131268
+Median: 0.186603
+75th percentile: 0.307278
+------------------------------
+
+Layer: module.layer3.0.bn1.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer3.0.conv2.weight
+Original Weights Statistics:
+Shape: torch.Size([256, 256, 3, 3])
+Mean: 0.000431
+Std: 0.030564
+Max Absolute Value: 0.191783
+Min: -0.177358
+Max: 0.191783
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.180309
+Std: 0.135263
+25th percentile: 0.072127
+Median: 0.153081
+75th percentile: 0.260605
+------------------------------
+
+Layer: module.layer3.0.conv2.scores
+Original Weights Statistics:
+Shape: torch.Size([256, 256, 3, 3])
+Mean: 0.000005
+Std: 0.010594
+Max Absolute Value: 0.162441
+Min: -0.145981
+Max: 0.162441
+Sparsity: 0.03%
+
+Normalized Weights Statistics:
+Mean: 0.052644
+Std: 0.038496
+25th percentile: 0.023788
+Median: 0.048408
+75th percentile: 0.074472
+------------------------------
+
+Layer: module.layer3.0.bn2.running_mean
+Original Weights Statistics:
+Shape: torch.Size([256])
+Mean: 0.194794
+Std: 1.218597
+Max Absolute Value: 3.470276
+Min: -2.455703
+Max: 3.470276
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.294322
+Std: 0.199584
+25th percentile: 0.143554
+Median: 0.275630
+75th percentile: 0.418023
+------------------------------
+
+Layer: module.layer3.0.bn2.running_var
+Original Weights Statistics:
+Shape: torch.Size([256])
+Mean: 2.614319
+Std: 1.850913
+Max Absolute Value: 14.623196
+Min: 0.450425
+Max: 14.623196
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.178779
+Std: 0.126574
+25th percentile: 0.084093
+Median: 0.152052
+75th percentile: 0.226482
+------------------------------
+
+Layer: module.layer3.0.bn2.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer3.0.conv3.weight
+Original Weights Statistics:
+Shape: torch.Size([1024, 256, 1, 1])
+Mean: 0.000442
+Std: 0.089569
+Max Absolute Value: 0.589282
+Min: -0.526568
+Max: 0.589282
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.171454
+Std: 0.129654
+25th percentile: 0.068150
+Median: 0.145070
+75th percentile: 0.247212
+------------------------------
+
+Layer: module.layer3.0.conv3.scores
+Original Weights Statistics:
+Shape: torch.Size([1024, 256, 1, 1])
+Mean: 0.000076
+Std: 0.027919
+Max Absolute Value: 0.175749
+Min: -0.175749
+Max: 0.153412
+Sparsity: 0.01%
+
+Normalized Weights Statistics:
+Mean: 0.134660
+Std: 0.084280
+25th percentile: 0.064806
+Median: 0.130501
+75th percentile: 0.197402
+------------------------------
+
+Layer: module.layer3.0.bn3.running_mean
+Original Weights Statistics:
+Shape: torch.Size([1024])
+Mean: 0.039731
+Std: 0.644963
+Max Absolute Value: 1.800648
+Min: -1.800648
+Max: 1.786974
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.293743
+Std: 0.206150
+25th percentile: 0.123206
+Median: 0.263209
+75th percentile: 0.422310
+------------------------------
+
+Layer: module.layer3.0.bn3.running_var
+Original Weights Statistics:
+Shape: torch.Size([1024])
+Mean: 2.252951
+Std: 1.851401
+Max Absolute Value: 14.912598
+Min: 0.217712
+Max: 14.912598
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.151077
+Std: 0.124150
+25th percentile: 0.055551
+Median: 0.116847
+75th percentile: 0.211446
+------------------------------
+
+Layer: module.layer3.0.bn3.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer3.0.downsample.0.weight
+Original Weights Statistics:
+Shape: torch.Size([1024, 512, 1, 1])
+Mean: -0.001328
+Std: 0.063205
+Max Absolute Value: 0.405037
+Min: -0.405037
+Max: 0.382439
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.176129
+Std: 0.133046
+25th percentile: 0.070590
+Median: 0.148838
+75th percentile: 0.253848
+------------------------------
+
+Layer: module.layer3.0.downsample.0.scores
+Original Weights Statistics:
+Shape: torch.Size([1024, 512, 1, 1])
+Mean: 0.000022
+Std: 0.019682
+Max Absolute Value: 0.146388
+Min: -0.146388
+Max: 0.128133
+Sparsity: 0.01%
+
+Normalized Weights Statistics:
+Mean: 0.114006
+Std: 0.071270
+25th percentile: 0.054862
+Median: 0.110465
+75th percentile: 0.167315
+------------------------------
+
+Layer: module.layer3.0.downsample.1.running_mean
+Original Weights Statistics:
+Shape: torch.Size([1024])
+Mean: -0.734294
+Std: 2.688791
+Max Absolute Value: 7.138746
+Min: -7.138746
+Max: 6.297239
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.333280
+Std: 0.203392
+25th percentile: 0.167753
+Median: 0.312763
+75th percentile: 0.474609
+------------------------------
+
+Layer: module.layer3.0.downsample.1.running_var
+Original Weights Statistics:
+Shape: torch.Size([1024])
+Mean: 10.198068
+Std: 6.772192
+Max Absolute Value: 54.867771
+Min: 1.517159
+Max: 54.867771
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.185866
+Std: 0.123428
+25th percentile: 0.089076
+Median: 0.157814
+75th percentile: 0.248694
+------------------------------
+
+Layer: module.layer3.0.downsample.1.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer3.1.conv1.weight
+Original Weights Statistics:
+Shape: torch.Size([256, 1024, 1, 1])
+Mean: 0.000003
+Std: 0.045386
+Max Absolute Value: 0.293850
+Min: -0.293036
+Max: 0.293850
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.174355
+Std: 0.131577
+25th percentile: 0.069339
+Median: 0.147360
+75th percentile: 0.252241
+------------------------------
+
+Layer: module.layer3.1.conv1.scores
+Original Weights Statistics:
+Shape: torch.Size([256, 1024, 1, 1])
+Mean: -0.000010
+Std: 0.014770
+Max Absolute Value: 0.129012
+Min: -0.118192
+Max: 0.129012
+Sparsity: 0.02%
+
+Normalized Weights Statistics:
+Mean: 0.095248
+Std: 0.063520
+25th percentile: 0.044770
+Median: 0.089976
+75th percentile: 0.137497
+------------------------------
+
+Layer: module.layer3.1.bn1.running_mean
+Original Weights Statistics:
+Shape: torch.Size([256])
+Mean: 0.009966
+Std: 1.401435
+Max Absolute Value: 3.691221
+Min: -2.332395
+Max: 3.691221
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.317131
+Std: 0.208764
+25th percentile: 0.136878
+Median: 0.307634
+75th percentile: 0.445908
+------------------------------
+
+Layer: module.layer3.1.bn1.running_var
+Original Weights Statistics:
+Shape: torch.Size([256])
+Mean: 6.747208
+Std: 4.835684
+Max Absolute Value: 27.954952
+Min: 0.907246
+Max: 27.954952
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.241360
+Std: 0.172981
+25th percentile: 0.118698
+Median: 0.200860
+75th percentile: 0.316023
+------------------------------
+
+Layer: module.layer3.1.bn1.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer3.1.conv2.weight
+Original Weights Statistics:
+Shape: torch.Size([256, 256, 3, 3])
+Mean: -0.000218
+Std: 0.030124
+Max Absolute Value: 0.205175
+Min: -0.205175
+Max: 0.196005
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.165851
+Std: 0.124936
+25th percentile: 0.066387
+Median: 0.140389
+75th percentile: 0.239336
+------------------------------
+
+Layer: module.layer3.1.conv2.scores
+Original Weights Statistics:
+Shape: torch.Size([256, 256, 3, 3])
+Mean: 0.000011
+Std: 0.009950
+Max Absolute Value: 0.130277
+Min: -0.130277
+Max: 0.123696
+Sparsity: 0.03%
+
+Normalized Weights Statistics:
+Mean: 0.062896
+Std: 0.043334
+25th percentile: 0.029380
+Median: 0.059416
+75th percentile: 0.090509
+------------------------------
+
+Layer: module.layer3.1.bn2.running_mean
+Original Weights Statistics:
+Shape: torch.Size([256])
+Mean: -0.041462
+Std: 0.543839
+Max Absolute Value: 1.474143
+Min: -1.089948
+Max: 1.474143
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.301290
+Std: 0.214748
+25th percentile: 0.125712
+Median: 0.289393
+75th percentile: 0.454920
+------------------------------
+
+Layer: module.layer3.1.bn2.running_var
+Original Weights Statistics:
+Shape: torch.Size([256])
+Mean: 2.040617
+Std: 0.781417
+Max Absolute Value: 5.657414
+Min: 0.346076
+Max: 5.657414
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.360698
+Std: 0.138123
+25th percentile: 0.263136
+Median: 0.342909
+75th percentile: 0.436597
+------------------------------
+
+Layer: module.layer3.1.bn2.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer3.1.conv3.weight
+Original Weights Statistics:
+Shape: torch.Size([1024, 256, 1, 1])
+Mean: -0.001020
+Std: 0.089610
+Max Absolute Value: 0.604621
+Min: -0.604621
+Max: 0.521626
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.167112
+Std: 0.126535
+25th percentile: 0.066629
+Median: 0.140632
+75th percentile: 0.241578
+------------------------------
+
+Layer: module.layer3.1.conv3.scores
+Original Weights Statistics:
+Shape: torch.Size([1024, 256, 1, 1])
+Mean: 0.000024
+Std: 0.027384
+Max Absolute Value: 0.159635
+Min: -0.159635
+Max: 0.150179
+Sparsity: 0.01%
+
+Normalized Weights Statistics:
+Mean: 0.146426
+Std: 0.089370
+25th percentile: 0.071395
+Median: 0.143196
+75th percentile: 0.215658
+------------------------------
+
+Layer: module.layer3.1.bn3.running_mean
+Original Weights Statistics:
+Shape: torch.Size([1024])
+Mean: -0.066006
+Std: 0.702574
+Max Absolute Value: 1.971928
+Min: -1.793764
+Max: 1.971928
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.301250
+Std: 0.193157
+25th percentile: 0.149009
+Median: 0.281502
+75th percentile: 0.428572
+------------------------------
+
+Layer: module.layer3.1.bn3.running_var
+Original Weights Statistics:
+Shape: torch.Size([1024])
+Mean: 1.692993
+Std: 0.931212
+Max Absolute Value: 6.667509
+Min: 0.197977
+Max: 6.667509
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.253917
+Std: 0.139664
+25th percentile: 0.157196
+Median: 0.221388
+75th percentile: 0.314118
+------------------------------
+
+Layer: module.layer3.1.bn3.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer3.2.conv1.weight
+Original Weights Statistics:
+Shape: torch.Size([256, 1024, 1, 1])
+Mean: -0.000165
+Std: 0.045026
+Max Absolute Value: 0.298467
+Min: -0.298467
+Max: 0.297043
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.170015
+Std: 0.128881
+25th percentile: 0.067272
+Median: 0.143455
+75th percentile: 0.245397
+------------------------------
+
+Layer: module.layer3.2.conv1.scores
+Original Weights Statistics:
+Shape: torch.Size([256, 1024, 1, 1])
+Mean: -0.000021
+Std: 0.014182
+Max Absolute Value: 0.107561
+Min: -0.107561
+Max: 0.094993
+Sparsity: 0.01%
+
+Normalized Weights Statistics:
+Mean: 0.111219
+Std: 0.070824
+25th percentile: 0.053161
+Median: 0.106854
+75th percentile: 0.162371
+------------------------------
+
+Layer: module.layer3.2.bn1.running_mean
+Original Weights Statistics:
+Shape: torch.Size([256])
+Mean: -0.076542
+Std: 2.309893
+Max Absolute Value: 5.729957
+Min: -4.812072
+Max: 5.729957
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.344162
+Std: 0.210336
+25th percentile: 0.167931
+Median: 0.336954
+75th percentile: 0.491795
+------------------------------
+
+Layer: module.layer3.2.bn1.running_var
+Original Weights Statistics:
+Shape: torch.Size([256])
+Mean: 10.022001
+Std: 6.846941
+Max Absolute Value: 50.161949
+Min: 2.021004
+Max: 50.161949
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.199793
+Std: 0.136497
+25th percentile: 0.110988
+Median: 0.158809
+75th percentile: 0.255557
+------------------------------
+
+Layer: module.layer3.2.bn1.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer3.2.conv2.weight
+Original Weights Statistics:
+Shape: torch.Size([256, 256, 3, 3])
+Mean: -0.000079
+Std: 0.029883
+Max Absolute Value: 0.197244
+Min: -0.197244
+Max: 0.197010
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.170931
+Std: 0.129191
+25th percentile: 0.068152
+Median: 0.144467
+75th percentile: 0.247142
+------------------------------
+
+Layer: module.layer3.2.conv2.scores
+Original Weights Statistics:
+Shape: torch.Size([256, 256, 3, 3])
+Mean: 0.000003
+Std: 0.009343
+Max Absolute Value: 0.127817
+Min: -0.096694
+Max: 0.127817
+Sparsity: 0.02%
+
+Normalized Weights Statistics:
+Mean: 0.061781
+Std: 0.039067
+25th percentile: 0.029794
+Median: 0.059870
+75th percentile: 0.090487
+------------------------------
+
+Layer: module.layer3.2.bn2.running_mean
+Original Weights Statistics:
+Shape: torch.Size([256])
+Mean: 0.026512
+Std: 0.665629
+Max Absolute Value: 1.890537
+Min: -1.176865
+Max: 1.890537
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.282441
+Std: 0.210684
+25th percentile: 0.122519
+Median: 0.232506
+75th percentile: 0.369481
+------------------------------
+
+Layer: module.layer3.2.bn2.running_var
+Original Weights Statistics:
+Shape: torch.Size([256])
+Mean: 2.003108
+Std: 0.726898
+Max Absolute Value: 4.430101
+Min: 0.566187
+Max: 4.430101
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.452159
+Std: 0.164082
+25th percentile: 0.335845
+Median: 0.430422
+75th percentile: 0.543300
+------------------------------
+
+Layer: module.layer3.2.bn2.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer3.2.conv3.weight
+Original Weights Statistics:
+Shape: torch.Size([1024, 256, 1, 1])
+Mean: 0.000172
+Std: 0.089121
+Max Absolute Value: 0.561194
+Min: -0.561194
+Max: 0.502218
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.179031
+Std: 0.135597
+25th percentile: 0.071074
+Median: 0.151253
+75th percentile: 0.258221
+------------------------------
+
+Layer: module.layer3.2.conv3.scores
+Original Weights Statistics:
+Shape: torch.Size([1024, 256, 1, 1])
+Mean: 0.000020
+Std: 0.026729
+Max Absolute Value: 0.124784
+Min: -0.105543
+Max: 0.124784
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.183979
+Std: 0.109707
+25th percentile: 0.090539
+Median: 0.181466
+75th percentile: 0.273185
+------------------------------
+
+Layer: module.layer3.2.bn3.running_mean
+Original Weights Statistics:
+Shape: torch.Size([1024])
+Mean: 0.039802
+Std: 0.667544
+Max Absolute Value: 1.885121
+Min: -1.719667
+Max: 1.885121
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.290853
+Std: 0.203090
+25th percentile: 0.127731
+Median: 0.263139
+75th percentile: 0.423919
+------------------------------
+
+Layer: module.layer3.2.bn3.running_var
+Original Weights Statistics:
+Shape: torch.Size([1024])
+Mean: 1.623634
+Std: 0.847751
+Max Absolute Value: 6.234077
+Min: 0.224692
+Max: 6.234077
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.260445
+Std: 0.135987
+25th percentile: 0.159134
+Median: 0.235072
+75th percentile: 0.331222
+------------------------------
+
+Layer: module.layer3.2.bn3.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer3.3.conv1.weight
+Original Weights Statistics:
+Shape: torch.Size([256, 1024, 1, 1])
+Mean: -0.000433
+Std: 0.044659
+Max Absolute Value: 0.307488
+Min: -0.307488
+Max: 0.277735
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.163815
+Std: 0.123920
+25th percentile: 0.065211
+Median: 0.138542
+75th percentile: 0.235970
+------------------------------
+
+Layer: module.layer3.3.conv1.scores
+Original Weights Statistics:
+Shape: torch.Size([256, 1024, 1, 1])
+Mean: 0.000010
+Std: 0.013901
+Max Absolute Value: 0.087520
+Min: -0.075901
+Max: 0.087520
+Sparsity: 0.01%
+
+Normalized Weights Statistics:
+Mean: 0.134728
+Std: 0.084128
+25th percentile: 0.064728
+Median: 0.130428
+75th percentile: 0.197905
+------------------------------
+
+Layer: module.layer3.3.bn1.running_mean
+Original Weights Statistics:
+Shape: torch.Size([256])
+Mean: -0.303442
+Std: 2.944805
+Max Absolute Value: 7.630468
+Min: -6.295946
+Max: 7.630468
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.330529
+Std: 0.203155
+25th percentile: 0.169640
+Median: 0.333281
+75th percentile: 0.465088
+------------------------------
+
+Layer: module.layer3.3.bn1.running_var
+Original Weights Statistics:
+Shape: torch.Size([256])
+Mean: 16.100332
+Std: 10.153396
+Max Absolute Value: 70.108932
+Min: 3.318921
+Max: 70.108932
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.229647
+Std: 0.144823
+25th percentile: 0.129945
+Median: 0.184333
+75th percentile: 0.268749
+------------------------------
+
+Layer: module.layer3.3.bn1.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer3.3.conv2.weight
+Original Weights Statistics:
+Shape: torch.Size([256, 256, 3, 3])
+Mean: -0.000203
+Std: 0.029656
+Max Absolute Value: 0.200325
+Min: -0.200325
+Max: 0.175550
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.166954
+Std: 0.126332
+25th percentile: 0.066408
+Median: 0.140914
+75th percentile: 0.240864
+------------------------------
+
+Layer: module.layer3.3.conv2.scores
+Original Weights Statistics:
+Shape: torch.Size([256, 256, 3, 3])
+Mean: -0.000023
+Std: 0.009114
+Max Absolute Value: 0.061454
+Min: -0.058512
+Max: 0.061454
+Sparsity: 0.02%
+
+Normalized Weights Statistics:
+Mean: 0.126354
+Std: 0.077643
+25th percentile: 0.061369
+Median: 0.123369
+75th percentile: 0.186492
+------------------------------
+
+Layer: module.layer3.3.bn2.running_mean
+Original Weights Statistics:
+Shape: torch.Size([256])
+Mean: -0.025607
+Std: 0.630569
+Max Absolute Value: 1.941198
+Min: -1.120207
+Max: 1.941198
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.265358
+Std: 0.187820
+25th percentile: 0.122480
+Median: 0.242795
+75th percentile: 0.371585
+------------------------------
+
+Layer: module.layer3.3.bn2.running_var
+Original Weights Statistics:
+Shape: torch.Size([256])
+Mean: 1.727321
+Std: 0.725801
+Max Absolute Value: 4.954229
+Min: 0.402829
+Max: 4.954229
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.348656
+Std: 0.146501
+25th percentile: 0.248317
+Median: 0.315735
+75th percentile: 0.436306
+------------------------------
+
+Layer: module.layer3.3.bn2.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer3.3.conv3.weight
+Original Weights Statistics:
+Shape: torch.Size([1024, 256, 1, 1])
+Mean: 0.000990
+Std: 0.088528
+Max Absolute Value: 0.567065
+Min: -0.567065
+Max: 0.563454
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.175942
+Std: 0.133396
+25th percentile: 0.069934
+Median: 0.148503
+75th percentile: 0.253182
+------------------------------
+
+Layer: module.layer3.3.conv3.scores
+Original Weights Statistics:
+Shape: torch.Size([1024, 256, 1, 1])
+Mean: -0.000051
+Std: 0.026516
+Max Absolute Value: 0.093891
+Min: -0.093891
+Max: 0.084374
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.242891
+Std: 0.144089
+25th percentile: 0.119396
+Median: 0.240876
+75th percentile: 0.361580
+------------------------------
+
+Layer: module.layer3.3.bn3.running_mean
+Original Weights Statistics:
+Shape: torch.Size([1024])
+Mean: 0.096688
+Std: 0.647467
+Max Absolute Value: 1.825867
+Min: -1.613385
+Max: 1.825867
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.292999
+Std: 0.206647
+25th percentile: 0.130966
+Median: 0.249498
+75th percentile: 0.430699
+------------------------------
+
+Layer: module.layer3.3.bn3.running_var
+Original Weights Statistics:
+Shape: torch.Size([1024])
+Mean: 1.089993
+Std: 0.575867
+Max Absolute Value: 4.608809
+Min: 0.128918
+Max: 4.608809
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.236502
+Std: 0.124949
+25th percentile: 0.149066
+Median: 0.210489
+75th percentile: 0.297712
+------------------------------
+
+Layer: module.layer3.3.bn3.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer3.4.conv1.weight
+Original Weights Statistics:
+Shape: torch.Size([256, 1024, 1, 1])
+Mean: -0.001067
+Std: 0.044626
+Max Absolute Value: 0.306626
+Min: -0.295473
+Max: 0.306626
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.164101
+Std: 0.124332
+25th percentile: 0.065122
+Median: 0.138587
+75th percentile: 0.236806
+------------------------------
+
+Layer: module.layer3.4.conv1.scores
+Original Weights Statistics:
+Shape: torch.Size([256, 1024, 1, 1])
+Mean: 0.000022
+Std: 0.013804
+Max Absolute Value: 0.080340
+Min: -0.080340
+Max: 0.071857
+Sparsity: 0.01%
+
+Normalized Weights Statistics:
+Mean: 0.145903
+Std: 0.090748
+25th percentile: 0.070401
+Median: 0.141484
+75th percentile: 0.214777
+------------------------------
+
+Layer: module.layer3.4.bn1.running_mean
+Original Weights Statistics:
+Shape: torch.Size([256])
+Mean: -1.017405
+Std: 3.808142
+Max Absolute Value: 12.292367
+Min: -7.310857
+Max: 12.292367
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.271552
+Std: 0.170542
+25th percentile: 0.124216
+Median: 0.278318
+75th percentile: 0.384207
+------------------------------
+
+Layer: module.layer3.4.bn1.running_var
+Original Weights Statistics:
+Shape: torch.Size([256])
+Mean: 22.707390
+Std: 14.931713
+Max Absolute Value: 109.829102
+Min: 3.767006
+Max: 109.829102
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.206752
+Std: 0.135954
+25th percentile: 0.110292
+Median: 0.178019
+75th percentile: 0.250653
+------------------------------
+
+Layer: module.layer3.4.bn1.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer3.4.conv2.weight
+Original Weights Statistics:
+Shape: torch.Size([256, 256, 3, 3])
+Mean: -0.000195
+Std: 0.029610
+Max Absolute Value: 0.191773
+Min: -0.184879
+Max: 0.191773
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.174261
+Std: 0.131583
+25th percentile: 0.069625
+Median: 0.147328
+75th percentile: 0.251207
+------------------------------
+
+Layer: module.layer3.4.conv2.scores
+Original Weights Statistics:
+Shape: torch.Size([256, 256, 3, 3])
+Mean: -0.000005
+Std: 0.009121
+Max Absolute Value: 0.121498
+Min: -0.101238
+Max: 0.121498
+Sparsity: 0.02%
+
+Normalized Weights Statistics:
+Mean: 0.063877
+Std: 0.039446
+25th percentile: 0.031115
+Median: 0.062439
+75th percentile: 0.094178
+------------------------------
+
+Layer: module.layer3.4.bn2.running_mean
+Original Weights Statistics:
+Shape: torch.Size([256])
+Mean: -0.017653
+Std: 0.689297
+Max Absolute Value: 2.381768
+Min: -1.290600
+Max: 2.381768
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.229481
+Std: 0.176491
+25th percentile: 0.102422
+Median: 0.192218
+75th percentile: 0.318979
+------------------------------
+
+Layer: module.layer3.4.bn2.running_var
+Original Weights Statistics:
+Shape: torch.Size([256])
+Mean: 1.418037
+Std: 0.584650
+Max Absolute Value: 3.830325
+Min: 0.261720
+Max: 3.830325
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.370213
+Std: 0.152637
+25th percentile: 0.266225
+Median: 0.343778
+75th percentile: 0.448149
+------------------------------
+
+Layer: module.layer3.4.bn2.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer3.4.conv3.weight
+Original Weights Statistics:
+Shape: torch.Size([1024, 256, 1, 1])
+Mean: 0.002325
+Std: 0.088279
+Max Absolute Value: 0.576362
+Min: -0.509668
+Max: 0.576362
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.172853
+Std: 0.130666
+25th percentile: 0.068961
+Median: 0.146069
+75th percentile: 0.248720
+------------------------------
+
+Layer: module.layer3.4.conv3.scores
+Original Weights Statistics:
+Shape: torch.Size([1024, 256, 1, 1])
+Mean: -0.000016
+Std: 0.026509
+Max Absolute Value: 0.111028
+Min: -0.111028
+Max: 0.090074
+Sparsity: 0.01%
+
+Normalized Weights Statistics:
+Mean: 0.205768
+Std: 0.121106
+25th percentile: 0.102047
+Median: 0.204464
+75th percentile: 0.306296
+------------------------------
+
+Layer: module.layer3.4.bn3.running_mean
+Original Weights Statistics:
+Shape: torch.Size([1024])
+Mean: 0.206870
+Std: 0.716108
+Max Absolute Value: 2.242521
+Min: -1.803513
+Max: 2.242521
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.273193
+Std: 0.189337
+25th percentile: 0.118144
+Median: 0.244980
+75th percentile: 0.397873
+------------------------------
+
+Layer: module.layer3.4.bn3.running_var
+Original Weights Statistics:
+Shape: torch.Size([1024])
+Mean: 0.946899
+Std: 0.523942
+Max Absolute Value: 4.908582
+Min: 0.104241
+Max: 4.908582
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.192907
+Std: 0.106740
+25th percentile: 0.115635
+Median: 0.169984
+75th percentile: 0.248745
+------------------------------
+
+Layer: module.layer3.4.bn3.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer3.5.conv1.weight
+Original Weights Statistics:
+Shape: torch.Size([256, 1024, 1, 1])
+Mean: -0.001703
+Std: 0.044609
+Max Absolute Value: 0.297395
+Min: -0.297395
+Max: 0.279115
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.169313
+Std: 0.128059
+25th percentile: 0.067491
+Median: 0.142986
+75th percentile: 0.243848
+------------------------------
+
+Layer: module.layer3.5.conv1.scores
+Original Weights Statistics:
+Shape: torch.Size([256, 1024, 1, 1])
+Mean: -0.000022
+Std: 0.013752
+Max Absolute Value: 0.078654
+Min: -0.078579
+Max: 0.078654
+Sparsity: 0.02%
+
+Normalized Weights Statistics:
+Mean: 0.148888
+Std: 0.091649
+25th percentile: 0.072538
+Median: 0.145201
+75th percentile: 0.219116
+------------------------------
+
+Layer: module.layer3.5.bn1.running_mean
+Original Weights Statistics:
+Shape: torch.Size([256])
+Mean: -1.937560
+Std: 5.231061
+Max Absolute Value: 14.649049
+Min: -13.484557
+Max: 14.649049
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.330285
+Std: 0.189527
+25th percentile: 0.193819
+Median: 0.325489
+75th percentile: 0.424020
+------------------------------
+
+Layer: module.layer3.5.bn1.running_var
+Original Weights Statistics:
+Shape: torch.Size([256])
+Mean: 38.941010
+Std: 25.789293
+Max Absolute Value: 175.774002
+Min: 4.415747
+Max: 175.774002
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.221540
+Std: 0.146718
+25th percentile: 0.135080
+Median: 0.189268
+75th percentile: 0.265190
+------------------------------
+
+Layer: module.layer3.5.bn1.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer3.5.conv2.weight
+Original Weights Statistics:
+Shape: torch.Size([256, 256, 3, 3])
+Mean: -0.000167
+Std: 0.029582
+Max Absolute Value: 0.195636
+Min: -0.188427
+Max: 0.195636
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.170665
+Std: 0.128854
+25th percentile: 0.068241
+Median: 0.144315
+75th percentile: 0.246239
+------------------------------
+
+Layer: module.layer3.5.conv2.scores
+Original Weights Statistics:
+Shape: torch.Size([256, 256, 3, 3])
+Mean: -0.000016
+Std: 0.009057
+Max Absolute Value: 0.135349
+Min: -0.088859
+Max: 0.135349
+Sparsity: 0.01%
+
+Normalized Weights Statistics:
+Mean: 0.056980
+Std: 0.035086
+25th percentile: 0.027832
+Median: 0.055741
+75th percentile: 0.084283
+------------------------------
+
+Layer: module.layer3.5.bn2.running_mean
+Original Weights Statistics:
+Shape: torch.Size([256])
+Mean: -0.036146
+Std: 0.526940
+Max Absolute Value: 1.515539
+Min: -1.085563
+Max: 1.515539
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.290762
+Std: 0.192135
+25th percentile: 0.132551
+Median: 0.271621
+75th percentile: 0.407666
+------------------------------
+
+Layer: module.layer3.5.bn2.running_var
+Original Weights Statistics:
+Shape: torch.Size([256])
+Mean: 0.986197
+Std: 0.512011
+Max Absolute Value: 3.319725
+Min: 0.161578
+Max: 3.319725
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.297072
+Std: 0.154233
+25th percentile: 0.197107
+Median: 0.268763
+75th percentile: 0.371195
+------------------------------
+
+Layer: module.layer3.5.bn2.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer3.5.conv3.weight
+Original Weights Statistics:
+Shape: torch.Size([1024, 256, 1, 1])
+Mean: 0.001771
+Std: 0.088093
+Max Absolute Value: 0.592344
+Min: -0.516542
+Max: 0.592344
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.167773
+Std: 0.126905
+25th percentile: 0.067002
+Median: 0.141732
+75th percentile: 0.241892
+------------------------------
+
+Layer: module.layer3.5.conv3.scores
+Original Weights Statistics:
+Shape: torch.Size([1024, 256, 1, 1])
+Mean: -0.000007
+Std: 0.026362
+Max Absolute Value: 0.111634
+Min: -0.096138
+Max: 0.111634
+Sparsity: 0.01%
+
+Normalized Weights Statistics:
+Mean: 0.203360
+Std: 0.120049
+25th percentile: 0.100412
+Median: 0.202202
+75th percentile: 0.303255
+------------------------------
+
+Layer: module.layer3.5.bn3.running_mean
+Original Weights Statistics:
+Shape: torch.Size([1024])
+Mean: 0.138561
+Std: 0.577116
+Max Absolute Value: 1.726046
+Min: -1.550356
+Max: 1.726046
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.289162
+Std: 0.186077
+25th percentile: 0.142358
+Median: 0.270126
+75th percentile: 0.414808
+------------------------------
+
+Layer: module.layer3.5.bn3.running_var
+Original Weights Statistics:
+Shape: torch.Size([1024])
+Mean: 1.148140
+Std: 0.674628
+Max Absolute Value: 5.529898
+Min: 0.087367
+Max: 5.529898
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.207624
+Std: 0.121996
+25th percentile: 0.123372
+Median: 0.184161
+75th percentile: 0.264266
+------------------------------
+
+Layer: module.layer3.5.bn3.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer4.0.conv1.weight
+Original Weights Statistics:
+Shape: torch.Size([512, 1024, 1, 1])
+Mean: 0.000127
+Std: 0.044256
+Max Absolute Value: 0.304659
+Min: -0.268883
+Max: 0.304659
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.163788
+Std: 0.124002
+25th percentile: 0.065292
+Median: 0.138365
+75th percentile: 0.235924
+------------------------------
+
+Layer: module.layer4.0.conv1.scores
+Original Weights Statistics:
+Shape: torch.Size([512, 1024, 1, 1])
+Mean: 0.000005
+Std: 0.013479
+Max Absolute Value: 0.081914
+Min: -0.069317
+Max: 0.081914
+Sparsity: 0.01%
+
+Normalized Weights Statistics:
+Mean: 0.140786
+Std: 0.085175
+25th percentile: 0.068960
+Median: 0.138178
+75th percentile: 0.208692
+------------------------------
+
+Layer: module.layer4.0.bn1.running_mean
+Original Weights Statistics:
+Shape: torch.Size([512])
+Mean: 0.192584
+Std: 4.426208
+Max Absolute Value: 11.757184
+Min: -9.861136
+Max: 11.757184
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.325644
+Std: 0.189611
+25th percentile: 0.177523
+Median: 0.317055
+75th percentile: 0.462201
+------------------------------
+
+Layer: module.layer4.0.bn1.running_var
+Original Weights Statistics:
+Shape: torch.Size([512])
+Mean: 38.804379
+Std: 29.387119
+Max Absolute Value: 268.764130
+Min: 5.158691
+Max: 268.764130
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.144381
+Std: 0.109342
+25th percentile: 0.071789
+Median: 0.118032
+75th percentile: 0.181725
+------------------------------
+
+Layer: module.layer4.0.bn1.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer4.0.conv2.weight
+Original Weights Statistics:
+Shape: torch.Size([512, 512, 3, 3])
+Mean: -0.000412
+Std: 0.020872
+Max Absolute Value: 0.137288
+Min: -0.135513
+Max: 0.137288
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.171564
+Std: 0.129647
+25th percentile: 0.068435
+Median: 0.145120
+75th percentile: 0.247541
+------------------------------
+
+Layer: module.layer4.0.conv2.scores
+Original Weights Statistics:
+Shape: torch.Size([512, 512, 3, 3])
+Mean: 0.000003
+Std: 0.006296
+Max Absolute Value: 0.071733
+Min: -0.063690
+Max: 0.071733
+Sparsity: 0.02%
+
+Normalized Weights Statistics:
+Mean: 0.075283
+Std: 0.045133
+25th percentile: 0.037086
+Median: 0.074441
+75th percentile: 0.112051
+------------------------------
+
+Layer: module.layer4.0.bn2.running_mean
+Original Weights Statistics:
+Shape: torch.Size([512])
+Mean: -0.340573
+Std: 0.676266
+Max Absolute Value: 3.065974
+Min: -1.780195
+Max: 3.065974
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.204721
+Std: 0.138131
+25th percentile: 0.096126
+Median: 0.196691
+75th percentile: 0.292846
+------------------------------
+
+Layer: module.layer4.0.bn2.running_var
+Original Weights Statistics:
+Shape: torch.Size([512])
+Mean: 5.415848
+Std: 3.288367
+Max Absolute Value: 35.809715
+Min: 0.693932
+Max: 35.809715
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.151240
+Std: 0.091829
+25th percentile: 0.086913
+Median: 0.140194
+75th percentile: 0.198538
+------------------------------
+
+Layer: module.layer4.0.bn2.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer4.0.conv3.weight
+Original Weights Statistics:
+Shape: torch.Size([2048, 512, 1, 1])
+Mean: -0.000454
+Std: 0.062416
+Max Absolute Value: 0.440753
+Min: -0.392563
+Max: 0.440753
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.159779
+Std: 0.120754
+25th percentile: 0.063858
+Median: 0.135077
+75th percentile: 0.230306
+------------------------------
+
+Layer: module.layer4.0.conv3.scores
+Original Weights Statistics:
+Shape: torch.Size([2048, 512, 1, 1])
+Mean: 0.000003
+Std: 0.018685
+Max Absolute Value: 0.170657
+Min: -0.170657
+Max: 0.126105
+Sparsity: 0.01%
+
+Normalized Weights Statistics:
+Mean: 0.094305
+Std: 0.055623
+25th percentile: 0.046744
+Median: 0.093750
+75th percentile: 0.140708
+------------------------------
+
+Layer: module.layer4.0.bn3.running_mean
+Original Weights Statistics:
+Shape: torch.Size([2048])
+Mean: -0.019383
+Std: 0.193140
+Max Absolute Value: 0.534306
+Min: -0.533977
+Max: 0.534306
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.310052
+Std: 0.189344
+25th percentile: 0.155615
+Median: 0.292727
+75th percentile: 0.435460
+------------------------------
+
+Layer: module.layer4.0.bn3.running_var
+Original Weights Statistics:
+Shape: torch.Size([2048])
+Mean: 1.018679
+Std: 0.673833
+Max Absolute Value: 5.428240
+Min: 0.052568
+Max: 5.428240
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.187663
+Std: 0.124135
+25th percentile: 0.100033
+Median: 0.163198
+75th percentile: 0.240845
+------------------------------
+
+Layer: module.layer4.0.bn3.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer4.0.downsample.0.weight
+Original Weights Statistics:
+Shape: torch.Size([2048, 1024, 1, 1])
+Mean: -0.000590
+Std: 0.044164
+Max Absolute Value: 0.304706
+Min: -0.304304
+Max: 0.304706
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.163501
+Std: 0.123653
+25th percentile: 0.065311
+Median: 0.138064
+75th percentile: 0.235716
+------------------------------
+
+Layer: module.layer4.0.downsample.0.scores
+Original Weights Statistics:
+Shape: torch.Size([2048, 1024, 1, 1])
+Mean: 0.000002
+Std: 0.013166
+Max Absolute Value: 0.080621
+Min: -0.080621
+Max: 0.076245
+Sparsity: 0.03%
+
+Normalized Weights Statistics:
+Mean: 0.140862
+Std: 0.082638
+25th percentile: 0.070263
+Median: 0.140088
+75th percentile: 0.210312
+------------------------------
+
+Layer: module.layer4.0.downsample.1.running_mean
+Original Weights Statistics:
+Shape: torch.Size([2048])
+Mean: -0.357893
+Std: 3.808093
+Max Absolute Value: 10.179174
+Min: -9.508146
+Max: 10.179174
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.322181
+Std: 0.193368
+25th percentile: 0.166748
+Median: 0.307292
+75th percentile: 0.454503
+------------------------------
+
+Layer: module.layer4.0.downsample.1.running_var
+Original Weights Statistics:
+Shape: torch.Size([2048])
+Mean: 47.079346
+Std: 23.801760
+Max Absolute Value: 228.133469
+Min: 2.917794
+Max: 228.133469
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.206368
+Std: 0.104333
+25th percentile: 0.132156
+Median: 0.192011
+75th percentile: 0.262582
+------------------------------
+
+Layer: module.layer4.0.downsample.1.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer4.1.conv1.weight
+Original Weights Statistics:
+Shape: torch.Size([512, 2048, 1, 1])
+Mean: -0.000444
+Std: 0.031270
+Max Absolute Value: 0.236715
+Min: -0.236715
+Max: 0.198617
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.149053
+Std: 0.112654
+25th percentile: 0.059484
+Median: 0.125895
+75th percentile: 0.214999
+------------------------------
+
+Layer: module.layer4.1.conv1.scores
+Original Weights Statistics:
+Shape: torch.Size([512, 2048, 1, 1])
+Mean: -0.000016
+Std: 0.009515
+Max Absolute Value: 0.284588
+Min: -0.229080
+Max: 0.284588
+Sparsity: 0.02%
+
+Normalized Weights Statistics:
+Mean: 0.028516
+Std: 0.017454
+25th percentile: 0.013981
+Median: 0.028115
+75th percentile: 0.042354
+------------------------------
+
+Layer: module.layer4.1.bn1.running_mean
+Original Weights Statistics:
+Shape: torch.Size([512])
+Mean: -0.050368
+Std: 0.307440
+Max Absolute Value: 0.806462
+Min: -0.715529
+Max: 0.806462
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.319264
+Std: 0.217486
+25th percentile: 0.148180
+Median: 0.285309
+75th percentile: 0.434743
+------------------------------
+
+Layer: module.layer4.1.bn1.running_var
+Original Weights Statistics:
+Shape: torch.Size([512])
+Mean: 0.443935
+Std: 0.302167
+Max Absolute Value: 1.963795
+Min: 0.037697
+Max: 1.963795
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.226060
+Std: 0.153869
+25th percentile: 0.119873
+Median: 0.192040
+75th percentile: 0.292743
+------------------------------
+
+Layer: module.layer4.1.bn1.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer4.1.conv2.weight
+Original Weights Statistics:
+Shape: torch.Size([512, 512, 3, 3])
+Mean: -0.000117
+Std: 0.020865
+Max Absolute Value: 0.146504
+Min: -0.141475
+Max: 0.146504
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.160714
+Std: 0.121401
+25th percentile: 0.064197
+Median: 0.135894
+75th percentile: 0.231660
+------------------------------
+
+Layer: module.layer4.1.conv2.scores
+Original Weights Statistics:
+Shape: torch.Size([512, 512, 3, 3])
+Mean: -0.000001
+Std: 0.006264
+Max Absolute Value: 0.082940
+Min: -0.077582
+Max: 0.082940
+Sparsity: 0.01%
+
+Normalized Weights Statistics:
+Mean: 0.064884
+Std: 0.038644
+25th percentile: 0.032009
+Median: 0.064404
+75th percentile: 0.096884
+------------------------------
+
+Layer: module.layer4.1.bn2.running_mean
+Original Weights Statistics:
+Shape: torch.Size([512])
+Mean: -0.099045
+Std: 0.238948
+Max Absolute Value: 0.508431
+Min: -0.508431
+Max: 0.486314
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.467506
+Std: 0.200649
+25th percentile: 0.346490
+Median: 0.462960
+75th percentile: 0.604572
+------------------------------
+
+Layer: module.layer4.1.bn2.running_var
+Original Weights Statistics:
+Shape: torch.Size([512])
+Mean: 0.369842
+Std: 0.191137
+Max Absolute Value: 1.225094
+Min: 0.075808
+Max: 1.225094
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.301888
+Std: 0.156019
+25th percentile: 0.185744
+Median: 0.273663
+75th percentile: 0.390477
+------------------------------
+
+Layer: module.layer4.1.bn2.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer4.1.conv3.weight
+Original Weights Statistics:
+Shape: torch.Size([2048, 512, 1, 1])
+Mean: -0.000825
+Std: 0.062347
+Max Absolute Value: 0.433146
+Min: -0.433146
+Max: 0.413149
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.162363
+Std: 0.122810
+25th percentile: 0.064674
+Median: 0.137247
+75th percentile: 0.234365
+------------------------------
+
+Layer: module.layer4.1.conv3.scores
+Original Weights Statistics:
+Shape: torch.Size([2048, 512, 1, 1])
+Mean: -0.000005
+Std: 0.018609
+Max Absolute Value: 0.062993
+Min: -0.062993
+Max: 0.054989
+Sparsity: 0.02%
+
+Normalized Weights Statistics:
+Mean: 0.254874
+Std: 0.149358
+25th percentile: 0.127157
+Median: 0.253987
+75th percentile: 0.380718
+------------------------------
+
+Layer: module.layer4.1.bn3.running_mean
+Original Weights Statistics:
+Shape: torch.Size([2048])
+Mean: -0.065451
+Std: 0.430808
+Max Absolute Value: 1.043020
+Min: -0.997922
+Max: 1.043020
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.377819
+Std: 0.178303
+25th percentile: 0.247774
+Median: 0.374871
+75th percentile: 0.492483
+------------------------------
+
+Layer: module.layer4.1.bn3.running_var
+Original Weights Statistics:
+Shape: torch.Size([2048])
+Mean: 2.783967
+Std: 1.403554
+Max Absolute Value: 11.148338
+Min: 0.117302
+Max: 11.148338
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.249720
+Std: 0.125898
+25th percentile: 0.158958
+Median: 0.231889
+75th percentile: 0.324991
+------------------------------
+
+Layer: module.layer4.1.bn3.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer4.2.conv1.weight
+Original Weights Statistics:
+Shape: torch.Size([512, 2048, 1, 1])
+Mean: -0.000443
+Std: 0.031291
+Max Absolute Value: 0.201246
+Min: -0.198813
+Max: 0.201246
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.175443
+Std: 0.132599
+25th percentile: 0.070062
+Median: 0.148084
+75th percentile: 0.252891
+------------------------------
+
+Layer: module.layer4.2.conv1.scores
+Original Weights Statistics:
+Shape: torch.Size([512, 2048, 1, 1])
+Mean: -0.000005
+Std: 0.009318
+Max Absolute Value: 0.041691
+Min: -0.041691
+Max: 0.041459
+Sparsity: 0.02%
+
+Normalized Weights Statistics:
+Mean: 0.192981
+Std: 0.112756
+25th percentile: 0.096058
+Median: 0.192099
+75th percentile: 0.288327
+------------------------------
+
+Layer: module.layer4.2.bn1.running_mean
+Original Weights Statistics:
+Shape: torch.Size([512])
+Mean: -0.146004
+Std: 0.530674
+Max Absolute Value: 1.779040
+Min: -1.141307
+Max: 1.779040
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.266637
+Std: 0.156903
+25th percentile: 0.160390
+Median: 0.261375
+75th percentile: 0.351982
+------------------------------
+
+Layer: module.layer4.2.bn1.running_var
+Original Weights Statistics:
+Shape: torch.Size([512])
+Mean: 4.737841
+Std: 5.610836
+Max Absolute Value: 58.123020
+Min: 0.161099
+Max: 58.123020
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.081514
+Std: 0.096534
+25th percentile: 0.030167
+Median: 0.062301
+75th percentile: 0.102531
+------------------------------
+
+Layer: module.layer4.2.bn1.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer4.2.conv2.weight
+Original Weights Statistics:
+Shape: torch.Size([512, 512, 3, 3])
+Mean: -0.000071
+Std: 0.020839
+Max Absolute Value: 0.154124
+Min: -0.154124
+Max: 0.139125
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.152550
+Std: 0.115296
+25th percentile: 0.060971
+Median: 0.128950
+75th percentile: 0.219734
+------------------------------
+
+Layer: module.layer4.2.conv2.scores
+Original Weights Statistics:
+Shape: torch.Size([512, 512, 3, 3])
+Mean: -0.000004
+Std: 0.006202
+Max Absolute Value: 0.043759
+Min: -0.043759
+Max: 0.035685
+Sparsity: 0.01%
+
+Normalized Weights Statistics:
+Mean: 0.122432
+Std: 0.071385
+25th percentile: 0.060802
+Median: 0.122121
+75th percentile: 0.183328
+------------------------------
+
+Layer: module.layer4.2.bn2.running_mean
+Original Weights Statistics:
+Shape: torch.Size([512])
+Mean: -0.050872
+Std: 0.159906
+Max Absolute Value: 0.375013
+Min: -0.311461
+Max: 0.375013
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.419363
+Std: 0.156057
+25th percentile: 0.324128
+Median: 0.422586
+75th percentile: 0.520932
+------------------------------
+
+Layer: module.layer4.2.bn2.running_var
+Original Weights Statistics:
+Shape: torch.Size([512])
+Mean: 0.455376
+Std: 0.300811
+Max Absolute Value: 2.313213
+Min: 0.037198
+Max: 2.313213
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.196859
+Std: 0.130040
+25th percentile: 0.100996
+Median: 0.169915
+75th percentile: 0.271551
+------------------------------
+
+Layer: module.layer4.2.bn2.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.layer4.2.conv3.weight
+Original Weights Statistics:
+Shape: torch.Size([2048, 512, 1, 1])
+Mean: -0.000522
+Std: 0.062532
+Max Absolute Value: 0.421712
+Min: -0.421712
+Max: 0.410084
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.167250
+Std: 0.126514
+25th percentile: 0.066761
+Median: 0.141216
+75th percentile: 0.241269
+------------------------------
+
+Layer: module.layer4.2.conv3.scores
+Original Weights Statistics:
+Shape: torch.Size([2048, 512, 1, 1])
+Mean: -0.000016
+Std: 0.018582
+Max Absolute Value: 0.073892
+Min: -0.073892
+Max: 0.067719
+Sparsity: 0.01%
+
+Normalized Weights Statistics:
+Mean: 0.217259
+Std: 0.126630
+25th percentile: 0.108454
+Median: 0.216602
+75th percentile: 0.325018
+------------------------------
+
+Layer: module.layer4.2.bn3.running_mean
+Original Weights Statistics:
+Shape: torch.Size([2048])
+Mean: -0.024849
+Std: 0.223100
+Max Absolute Value: 0.637218
+Min: -0.590713
+Max: 0.637218
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.300918
+Std: 0.183167
+25th percentile: 0.160191
+Median: 0.285251
+75th percentile: 0.420655
+------------------------------
+
+Layer: module.layer4.2.bn3.running_var
+Original Weights Statistics:
+Shape: torch.Size([2048])
+Mean: 1.870574
+Std: 1.537091
+Max Absolute Value: 21.033504
+Min: 0.047894
+Max: 21.033504
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.088933
+Std: 0.073078
+25th percentile: 0.045518
+Median: 0.073909
+75th percentile: 0.111625
+------------------------------
+
+Layer: module.layer4.2.bn3.num_batches_tracked
+Original Weights Statistics:
+Shape: torch.Size([])
+Mean: 10780.000000
+Std: 0.000000
+Max Absolute Value: 10780.000000
+Min: 10780.000000
+Max: 10780.000000
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 1.000000
+Std: 0.000000
+25th percentile: 1.000000
+Median: 1.000000
+75th percentile: 1.000000
+------------------------------
+
+Layer: module.fc.weight
+Original Weights Statistics:
+Shape: torch.Size([10, 2048, 1, 1])
+Mean: -0.002059
+Std: 0.034670
+Max Absolute Value: 0.174725
+Min: -0.174725
+Max: 0.166705
+Sparsity: 50.00%
+
+Normalized Weights Statistics:
+Mean: 0.229367
+Std: 0.162524
+25th percentile: 0.098224
+Median: 0.204120
+75th percentile: 0.328167
+------------------------------
+
+Layer: module.fc.scores
+Original Weights Statistics:
+Shape: torch.Size([10, 2048, 1, 1])
+Mean: -0.000079
+Std: 0.014725
+Max Absolute Value: 0.138961
+Min: -0.138961
+Max: 0.128426
+Sparsity: 0.00%
+
+Normalized Weights Statistics:
+Mean: 0.079964
+Std: 0.069535
+25th percentile: 0.035672
+Median: 0.065757
+75th percentile: 0.102489
+------------------------------

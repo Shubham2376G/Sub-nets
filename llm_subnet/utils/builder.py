@@ -142,8 +142,13 @@ class Builder(object):
         elif args.init == "uniform_s":
             nn.init.uniform_(conv.weight,a=-1 , b=1)
 
+        elif args.init == "noisy":
+
+            noise_sigma = 5
+            nn.init.normal_(conv.weight, mean=0.0, std=noise_sigma)
+
         elif args.init == "log_normal":
-            def log_normal_init(tensor, mean=0.0, std=1.0):
+            def log_normal_init(tensor, mean=-0.0, std=0):
                 # Create a LogNormal distribution
                 from torch.distributions import LogNormal
                 log_normal_dist = LogNormal(mean, std)
@@ -152,7 +157,7 @@ class Builder(object):
                 with torch.no_grad():
                     tensor.copy_(log_normal_dist.sample(tensor.shape))
                     
-            log_normal_init(conv.weight,mean=0.0, std=1.0)
+            log_normal_init(conv.weight,mean=-0.01, std=0.03)
             
             
         else:

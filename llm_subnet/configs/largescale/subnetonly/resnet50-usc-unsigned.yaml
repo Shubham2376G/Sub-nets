@@ -3,7 +3,7 @@ arch: ResNet50
 
 # ===== Dataset ===== #
 data: /mnt/disk1/datasets
-set: ImageNet
+set: BigCIFAR10
 
 # ===== Learning Rate Policy ======== #
 optimizer: sgd
